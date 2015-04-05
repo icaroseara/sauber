@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - 2.1.2
 script: 'bundle exec rspec'
+install: 'gem install bundler'
 notifications:
   email:
     recipients:
