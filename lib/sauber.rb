@@ -8,7 +8,7 @@ module Sauber extend self
    yield self
   end
   
-  def sanitize text
-    Sauber::Base.sanitize text
+  def clean text
+    Sauber::Base.clean text
   end
 end

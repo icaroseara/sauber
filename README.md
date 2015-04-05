@@ -56,11 +56,11 @@ Phrases that contain a word from the blacklist that you don't wish to remove.
 ### Basic Usage
 
 ```ruby
-Sauber.sanitize("simple text")
+Sauber.clean("simple text")
 => "simple text"
 
-Sauber.sanitize("text with shit")
-=> "text with $@!#%"
+Sauber.clean("text with shit")
+=> "text with ****"
 ```
 
 ## Contributing
