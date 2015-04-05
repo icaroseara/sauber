@@ -2,6 +2,9 @@
 
 A tiny profanity filter.
 
+[![Build Status](https://travis-ci.org/icaroseara/sauber.svg)](https://travis-ci.org/icaroseara/sauber)
+[![Code Climate](https://codeclimate.com/github/icaroseara/sauber/badges/gpa.svg)](https://codeclimate.com/github/icaroseara/sauber)
+[![Test Coverage](https://codeclimate.com/github/icaroseara/sauber/badges/coverage.svg)](https://codeclimate.com/github/icaroseara/sauber)
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -8,6 +8,3 @@ notifications:
       - icaro.seara@email.com
     on_failure: change
     on_success: never
-addons:
-  code_climate:
-    repo_token: adf08323
