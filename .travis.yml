@@ -1,8 +1,9 @@
 language: ruby
 rvm:
   - 2.1.2
-script: 'bundle exec rspec'
 install: 'gem install bundler'
+after_success:
+  - CI=true TRAVIS=true coveralls --verbose
 notifications:
   email:
     recipients:
