@@ -1,7 +1,8 @@
 language: ruby
 rvm:
   - 2.1.2
-install: 'gem install bundler'
+install:
+  - bundle install
 after_success:
   - CI=true TRAVIS=true coveralls --verbose
 notifications:
