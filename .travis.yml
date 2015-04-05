@@ -5,8 +5,9 @@ before_install:
   - gem install bundler
 install:
   - bundle install
-after_success:
-  - CI=true TRAVIS=true coveralls --verbose
+addons:
+  code_climate:
+    repo_token: 6523a3eb32ccb84a0308d6308e038ce33c75e556fcb24dbf759dc8caad5d9d78
 notifications:
   email:
     recipients:
